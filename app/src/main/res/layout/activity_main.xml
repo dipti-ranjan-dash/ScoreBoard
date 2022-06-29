@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/basketball"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="        Basketball ScoreBoard"
+        android:fontFamily="@font/dancingscriptfont"
+        android:textColor="@color/white"
+        android:textSize="33sp">
+    </TextView>
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="400dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score Team A"
+            android:textColor="@color/white"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="25sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/score_text_viewA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/white"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="20dp"
+            android:textSize="45sp">
+
+        </TextView>
+
+
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="+3"
+            android:layout_marginTop="55dp"
+            android:layout_marginStart="20dp">
+
+        </Button>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="+2"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp">
+
+        </Button>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="+1"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score Team B"
+            android:textColor="@color/white"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="25sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/score_text_viewB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/white"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="20dp"
+            android:textSize="45sp">
+
+        </TextView>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="+3"
+            android:layout_marginTop="55dp"
+            android:layout_marginStart="20dp">
+
+        </Button>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="+2"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp">
+
+        </Button>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="+1"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="100dp"  >
+     <Button
+         android:layout_width="250dp"
+         android:layout_height="50dp"
+         android:layout_marginStart="85dp"
+         android:layout_marginTop="20dp"
+         android:text="RESET">
+
+
+     </Button>
+
+ </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
